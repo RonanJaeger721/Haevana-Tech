@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Haevena Tech | Security, Access, Solar and Automation</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero" aria-label="Haevena Tech premium header concept">
+      <canvas id="perimeter-scan" aria-hidden="true"></canvas>
+      <div class="cursor-light" aria-hidden="true"></div>
+
+      <nav class="topbar" aria-label="Primary navigation">
+        <a class="brand" href="#" aria-label="Haevena Tech home">
+          <svg viewBox="0 0 58 52" aria-hidden="true" class="brand-mark">
+            <path d="M29 0c7 10 16 8 24 7-1 15-7 24-18 29 2-9 0-16-6-21-6 5-8 12-6 21C12 31 6 22 5 7c8 1 17 3 24-7Z" />
+            <path d="M29 22c4 0 7 3 7 7s-3 7-7 7-7-3-7-7 3-7 7-7Z" class="mark-cut" />
+          </svg>
+          <span>
+            <strong>haeVena</strong>
+            <small>TECH</small>
+          </span>
+        </a>
+
+        <div class="nav-links" aria-label="Header sections">
+          <a href="#services">Systems</a>
+          <a href="#blueprint">Blueprint</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <a class="nav-call" href="tel:+263773658990">
+          <span>Call now</span>
+          <strong>077 365 8990</strong>
+        </a>
+      </nav>
+
+      <div class="hero-grid">
+        <section class="hero-copy">
+          <p class="eyebrow">55 Fife Avenue, Harare</p>
+          <h1>
+            <span class="solid-word">Security</span>
+            <span class="solid-word">that</span>
+            <span>closes</span>
+            <span>every</span>
+            <span>gap.</span>
+          </h1>
+          <p class="lead">
+            Haevena Tech designs, installs and maintains electric gates, CCTV,
+            alarm systems, access control, video intercoms, electric fencing and
+            domestic solar backup for homes and businesses.
+          </p>
+
+          <div class="hero-actions">
+            <a class="primary-action" href="mailto:info@haevanatech.co.zw">
+              <span>Request a site assessment</span>
+              <i aria-hidden="true"></i>
+            </a>
+            <a class="secondary-action" href="tel:+263773658990">077 365 8990</a>
+          </div>
+
+          <div class="signal-row" aria-label="Haevena Tech capabilities">
+            <div>
+              <strong>24/7</strong>
+              <span>premises readiness</span>
+            </div>
+            <div>
+              <strong>D5</strong>
+              <span>smart gate motors</span>
+            </div>
+            <div>
+              <strong>360</strong>
+              <span>CCTV and access coverage</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="security-stage" aria-label="Interactive service showcase">
+          <div class="stage-backplate" aria-hidden="true"></div>
+
+          <figure class="scene-frame" id="proof">
+            <img
+              id="scene-image"
+              src="./assets/gate-installation.jpeg"
+              alt="Haevena Tech electric gate installation"
+            />
+            <figcaption>
+              <span id="scene-kicker">Electric gates</span>
+              <strong id="scene-title">Automated perimeter entry</strong>
+            </figcaption>
+            <div class="scan-line" aria-hidden="true"></div>
+            <div class="corner corner-a" aria-hidden="true"></div>
+            <div class="corner corner-b" aria-hidden="true"></div>
+          </figure>
+
+          <div class="radar-module" aria-label="Live perimeter signal">
+            <span class="radar-pulse"></span>
+            <span class="radar-hand"></span>
+            <strong>LIVE</strong>
+            <small>perimeter scan</small>
+          </div>
+
+          <div class="spec-panel" aria-label="Smart gate motor features">
+            <span>Centurion D5 Smart</span>
+            <strong>Wireless setup. Advanced diagnostics. Faster gate speed.</strong>
+            <small>Battery charging, vibration sensing and intelligent logging.</small>
+          </div>
+
+          <div class="floating-feed feed-one">
+            <img src="./assets/access-keypad.jpeg" alt="Access control keypad installation" />
+            <span>Access control</span>
+          </div>
+          <div class="floating-feed feed-two">
+            <img src="./assets/cctv-camera.jpeg" alt="Outdoor CCTV camera installation" />
+            <span>CCTV</span>
+          </div>
+          <div class="floating-feed feed-three">
+            <img src="./assets/solar-system.jpeg" alt="Domestic solar system installation" />
+            <span>Solar backup</span>
+          </div>
+        </section>
+      </div>
+
+      <div class="service-dock" id="hero-services" aria-label="Haevena Tech service selector">
+        <button class="service-pill is-active" data-image="./assets/gate-installation.jpeg" data-alt="Haevena Tech electric gate installation" data-kicker="Electric gates" data-title="Automated perimeter entry">
+          Gates
+        </button>
+        <button class="service-pill" data-image="./assets/cctv-camera.jpeg" data-alt="Haevena Tech CCTV camera installation" data-kicker="CCTV" data-title="Every angle accounted for">
+          CCTV
+        </button>
+        <button class="service-pill" data-image="./assets/access-keypad.jpeg" data-alt="Haevena Tech access control keypad" data-kicker="Access control" data-title="Only the right people enter">
+          Access
+        </button>
+        <button class="service-pill" data-image="./assets/gate-station.jpeg" data-alt="Haevena Tech gate station intercom" data-kicker="Video intercom" data-title="Know who is outside first">
+          Intercom
+        </button>
+        <button class="service-pill" data-image="./assets/alarm-kit.jpeg" data-alt="Haevena Tech alarm system kit" data-kicker="Alarm systems" data-title="Instant response intelligence">
+          Alarms
+        </button>
+        <button class="service-pill" data-image="./assets/electric-fence.jpeg" data-alt="Haevena Tech electric fence installation" data-kicker="Electric fence" data-title="A visible line of defence">
+          Fencing
+        </button>
+        <button class="service-pill" data-image="./assets/solar-system.jpeg" data-alt="Haevena Tech domestic solar system installation" data-kicker="Solar systems" data-title="Security that stays powered">
+          Solar
+        </button>
+      </div>
+
+      <aside class="contact-strip" aria-label="Contact information">
+        <a href="mailto:info@haevanatech.co.zw">info@haevanatech.co.zw</a>
+        <span>55 Fife Avenue, Harare</span>
+        <a href="tel:+263773658990">+263 773 658 990</a>
+      </aside>
+    </header>
+
+    <main>
+      <section class="intel-section section-reveal" id="blueprint" aria-label="Haevena Tech security blueprint">
+        <div class="section-shell intel-grid">
+          <div class="section-heading">
+            <p class="eyebrow">Security blueprint</p>
+            <h2>One property. Multiple layers. One accountable installer.</h2>
+          </div>
+          <div class="intel-copy">
+            <p>
+              Haevena Tech treats every home, office and commercial site like a living perimeter:
+              entry, visibility, access, response and backup power all have to work together.
+            </p>
+          </div>
+          <div class="blueprint-map" aria-label="Layered site protection diagram">
+            <span class="map-line line-gate"></span>
+            <span class="map-line line-cctv"></span>
+            <span class="map-line line-solar"></span>
+            <button class="map-node node-gate" data-blueprint="Gate motors, electric gates and intercom stations make entry controlled, logged and convenient.">Gate</button>
+            <button class="map-node node-cctv" data-blueprint="CCTV cameras, recorders and mobile viewing turn blind spots into visible evidence.">CCTV</button>
+            <button class="map-node node-access" data-blueprint="Biometric readers, keypads and release buttons decide who moves through protected doors.">Access</button>
+            <button class="map-node node-alarm" data-blueprint="Alarm sensors, sirens and smoke detection warn the site before small events become expensive.">Alarm</button>
+            <button class="map-node node-solar" data-blueprint="Domestic solar backup keeps the security stack alive when the grid is not.">Solar</button>
+            <output class="blueprint-output">Select a layer to see how the system protects the site.</output>
+          </div>
+        </div>
+      </section>
+
+      <section class="systems-section section-reveal" id="services" aria-label="Haevena Tech services">
+        <div class="section-shell">
+          <div class="systems-marquee" aria-hidden="true">
+            <span>GATES / CCTV / ACCESS / ALARMS / FENCING / SOLAR / INTERCOM</span>
+          </div>
+          <div class="systems-layout">
+            <article class="system-feature">
+              <img src="./assets/electric-fence.jpeg" alt="Electric fence installation on a perimeter wall" />
+              <div>
+                <span>Perimeter</span>
+                <h2>Stop intrusion before it reaches the door.</h2>
+                <p>
+                  Electric fence installations, repairs and gate automation create the first line of defence.
+                </p>
+              </div>
+            </article>
+            <div class="system-list">
+              <article>
+                <span>01</span>
+                <h3>Electric gates</h3>
+                <p>Gate motors, smart setup, remotes, diagnostics, maintenance and repairs.</p>
+              </article>
+              <article>
+                <span>02</span>
+                <h3>CCTV</h3>
+                <p>Hikvision, Dahua and Ezviz cameras, recorders, remote viewing and maintenance.</p>
+              </article>
+              <article>
+                <span>03</span>
+                <h3>Access control</h3>
+                <p>Biometric readers, keypads, door releases, visitor control and intercoms.</p>
+              </article>
+              <article>
+                <span>04</span>
+                <h3>Alarms and solar</h3>
+                <p>Home alarm systems, sensors, sirens, smoke detection and backup power.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="walkthrough-section section-reveal" aria-label="Interactive secure home walkthrough">
+        <div class="section-shell walkthrough-grid">
+          <div class="walkthrough-copy">
+            <p class="eyebrow">Signature walkthrough</p>
+            <h2>Slide through a protected property.</h2>
+            <p>
+              Move the control to shift from perimeter protection to verified access, recorded visibility
+              and always-on backup power.
+            </p>
+            <input class="security-range" type="range" min="0" max="3" value="0" aria-label="Security layer walkthrough" />
+            <div class="walkthrough-status">
+              <span id="walkthrough-step">01 / Gate secured</span>
+              <strong id="walkthrough-title">The perimeter closes first.</strong>
+            </div>
+          </div>
+          <div class="home-schematic" aria-hidden="true">
+            <span class="home-roof"></span>
+            <span class="home-body"></span>
+            <span class="home-door"></span>
+            <span class="home-camera device"></span>
+            <span class="home-keypad device"></span>
+            <span class="home-siren device"></span>
+            <span class="home-solar device"></span>
+            <span class="energy-beam"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="proof-section section-reveal" aria-label="Installation proof">
+        <div class="section-shell proof-layout">
+          <div class="proof-heading">
+            <p class="eyebrow">Installed in the field</p>
+            <h2>Not showroom promises. Real work on real sites.</h2>
+          </div>
+          <div class="proof-stack">
+            <figure class="proof-shot shot-large">
+              <img src="./assets/gate-installation.jpeg" alt="Large black electric gate installation" />
+              <figcaption>Gate automation and perimeter entry</figcaption>
+            </figure>
+            <figure class="proof-shot shot-tall">
+              <img src="./assets/access-keypad.jpeg" alt="Biometric access keypad on a wall" />
+              <figcaption>Biometric access control</figcaption>
+            </figure>
+            <figure class="proof-shot shot-wide">
+              <img src="./assets/solar-system.jpeg" alt="Domestic solar system installation flyer" />
+              <figcaption>Domestic solar security backup</figcaption>
+            </figure>
+            <figure class="proof-shot shot-small">
+              <img src="./assets/cctv-camera.jpeg" alt="Outdoor CCTV camera under a roof" />
+              <figcaption>CCTV visibility</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="process-section section-reveal" aria-label="Haevena Tech installation process">
+        <div class="section-shell process-grid">
+          <div class="process-panel">
+            <span>01</span>
+            <h3>Assess</h3>
+            <p>Entrances, blind spots, power reliability and user access are mapped before equipment is recommended.</p>
+          </div>
+          <div class="process-panel">
+            <span>02</span>
+            <h3>Install</h3>
+            <p>Clean wiring, device placement and configuration are handled as one connected system.</p>
+          </div>
+          <div class="process-panel">
+            <span>03</span>
+            <h3>Maintain</h3>
+            <p>Gate speed, battery charging, sensors, cameras and alarms are serviced so protection stays reliable.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section-reveal" id="contact" aria-label="Contact Haevena Tech">
+        <div class="section-shell contact-grid">
+          <div>
+            <p class="eyebrow">Start with the site</p>
+            <h2>Tell Haevena what you need secured.</h2>
+            <p>
+              From a single gate motor repair to a full CCTV, alarm, access and solar-backed perimeter,
+              the first step is a site assessment.
+            </p>
+          </div>
+          <div class="contact-card">
+            <a href="tel:+263773658990">077 365 8990</a>
+            <a href="mailto:info@haevanatech.co.zw">info@haevanatech.co.zw</a>
+            <span>55 Fife Avenue, Harare</span>
+            <a class="primary-action" href="mailto:info@haevanatech.co.zw">
+              <span>Book the assessment</span>
+              <i aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
